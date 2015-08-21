@@ -29,12 +29,25 @@
             android:value="@integer/google_play_services_version" />
 
         <activity
-            android:name=".JRUStudentRegister"
-            android:label="@string/title_activity_jrustudent_register" >
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
-            android:name=".JRUStudentMain"
-            android:label="@string/title_activity_jrustudent_main" >
+            android:name=".JRULogin"
+            android:label="@string/title_activity_jrulogin" >
+        </activity>
+        <activity
+            android:name=".JRURegistration"
+            android:label="@string/title_activity_jruregistration" >
+        </activity>
+        <activity
+            android:name=".JRUMain"
+            android:label="@string/title_activity_jrumain" >
         </activity>
     </application>
 

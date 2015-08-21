@@ -4,16 +4,16 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.technovative.inc.jruprofessorlocator.JRUStudentMain">
+    tools:context="com.technovative.inc.jruprofessorlocator.JRUMain"
+    android:id="@+id/Layout">
 
     <TabHost
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/tabHost"
-        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="50dp">
+        android:layout_alignParentStart="true">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -22,7 +22,7 @@
 
             <TabWidget
                 android:id="@android:id/tabs"
-                android:layout_width="350dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"></TabWidget>
 
             <FrameLayout
@@ -31,28 +31,29 @@
                 android:layout_height="match_parent">
 
                 <LinearLayout
-                    android:id="@+id/department"
+                    android:id="@+id/Department"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"></LinearLayout>
 
                 <LinearLayout
-                    android:id="@+id/professor"
+                    android:id="@+id/Professor"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"></LinearLayout>
 
                 <LinearLayout
-                    android:id="@+id/profile"
+                    android:id="@+id/Profile"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"></LinearLayout>
 
                 <LinearLayout
-                    android:id="@+id/logout"
+                    android:id="@+id/Logout"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"></LinearLayout>
+
 
             </FrameLayout>
         </LinearLayout>
