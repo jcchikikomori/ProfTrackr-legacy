@@ -27,6 +27,15 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".JRUStudentRegister"
+            android:label="@string/title_activity_jrustudent_register" >
+        </activity>
+        <activity
+            android:name=".JRUStudentMain"
+            android:label="@string/title_activity_jrustudent_main" >
+        </activity>
     </application>
 
 </manifest>
